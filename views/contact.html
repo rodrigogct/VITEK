@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Oswald&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../public/css/contact.css">
+    <link rel="stylesheet" href="../public/css/vitek.css">
+    <link rel="stylesheet" href="../public/css/transition.css">
+    <script defer src="../public/js/script.js"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a href="menu"><img src="../public/icons/VITEK LOGO 1[1599].jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="vitek">Menu</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+    <main>
+      <div class="transition transition-2 is-active"></div>
+      <section class="contact">
+        <div class="info">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></i></i></div>
+              <div class="text">
+                <h3>Dirección</h3>
+                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></i></div>
+              <div class="text">
+                <h3>Correo</h3>
+                <p>guerrero@alvix.com.mx</p>
+              </div>
+            </div>
+          </div>
+          <div class="contactForm">
+            <form method="POST" action="/sendemail">
+              <h2>Envianos mensaje</h2>
+              <div class="inputBox">
+                <input type="text" name="fullname" required="required">
+                <span>Nombre Completo</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" name="email" required="required">
+                <span>Correo</span>
+              </div>  <div class="inputBox">
+                <textarea name="message" id="" required="required"></textarea>
+                <span>Escribe tu mensaje...</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Enviar">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+
+
+</html>
