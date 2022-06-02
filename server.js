@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views')
 app.engine('html', engines.mustache);
 app.set('view engine', 'html');
 
-app.get('/menu', (req, res) => {
+app.get('/', (req, res) => {
     res.render('index');
 });
 
