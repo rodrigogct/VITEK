@@ -220,6 +220,7 @@ h6 {
     opacity: 1;
     object-fit: cover;
     width: 100%;
+    filter: brightness(80%);
 }
 
 .contact .card {
@@ -323,12 +324,14 @@ h6 {
 }
 
 .contact h1 {
+    filter: brightness(100%);
     font-size: 53px;
     color: black;
     padding-bottom: 10px;
 }
 
 .contact p {
+    filter: brightness(100%);
     font-size: 26px;
     color: black;
 }
