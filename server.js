@@ -35,10 +35,10 @@ app.get('/sent', (req, res) => {
 app.post('/sendemail', (req, res) => {
     const { fullname, email, message } = req.body;
 
-    const from = "rodrigogomezdelcampo@hotmail.com";
-    const to = "rodrigogcdt@gmail.com";
+    const from = "proyectos@seac-mx.com";
+    const to = "proyectos@seac-mx.com";
   
-    const subject = "New Contact Request";
+    const subject = "Nueva solicitud de contacto SEAC";
   
     const output = `
       <p>Tienes un nuevo mensaje pendiente</p>

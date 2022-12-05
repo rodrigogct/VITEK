@@ -17,11 +17,16 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px;
+    padding-top: 40px;
 }
 
 .vitek img {
-    width: 200px;
+    width: 300px;
     padding: 40px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
 }
 
 .image {
