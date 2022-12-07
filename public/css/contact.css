@@ -168,5 +168,21 @@ body {
         width: 100%;
     }
 
+}
+
+@media (max-width: 400px) {
+    .contact {
+        padding: 20px;
+        height: 800px;
+    }
+
+    .info .contactInfo {
+        margin-bottom: 0;
+    }
+
+    body {
+        overflow-y: auto;
+    }
 
 }
+
