@@ -87,6 +87,7 @@ body {
 .info .contactInfo .box .text p {
     font-size: 18px;
     color: white;
+    text-decoration: none;
 }
 
 .contactForm {
