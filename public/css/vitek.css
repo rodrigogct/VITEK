@@ -603,5 +603,7 @@ h6 {
     flex-direction: column;
 }
 
-
+.business p {
+    text-decoration: none;
+}
 
