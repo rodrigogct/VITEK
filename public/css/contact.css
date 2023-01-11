@@ -182,6 +182,7 @@ body {
 
     body {
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
 }
