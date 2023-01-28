@@ -35,14 +35,14 @@ app.get('/sent', (req, res) => {
 app.post('/sendemail', (req, res) => {
     const { fullname, email, message } = req.body;
 
-    const from = "proyectos@seac-mx.com";
-    const to = "proyectos@seac-mx.com";
+    const from = "proyectos@alvitek.com.mx";
+    const to = "proyectos@alvitek.com.mx";
   
-    const subject = "Nueva solicitud de contacto SEAC";
+    const subject = "Solicitud de contacto VITEK";
   
     const output = `
-      <p>Tienes un nuevo mensaje pendiente</p>
-      <h3>Detalles del contacto:</h3>
+      <p>Nuevo mensaje pendiente</p>
+      <h3>Detalles de contacto del cliente:</h3>
       <ul>
         <li>Nombre completo: ${fullname}</li>
         <li>Correo: ${email}</li>
